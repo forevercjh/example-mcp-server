@@ -1,6 +1,6 @@
 ### MCP 开发手册 
 #### 1. 项目概述
-本项目是一个 MCP (Multi-Tool Control Platform) 项目，核心是通过工具注册表管理各种工具实例。 BaseHandler 作为工具基类，所有具体工具需继承该类并实现必要方法。
+本项目是一个 MCP (Model Context Protocol) 项目，核心是通过工具注册表管理各种工具实例。 BaseHandler 作为工具基类，所有具体工具需继承该类并实现必要方法。
 #### 2. 开发环境准备
 确保已安装 Python 环境，项目依赖维护在 requirements.txt 中，可通过以下命令安装依赖：
 ```
